@@ -53,3 +53,22 @@ text-align: center;
   height: 100px;
 
 }
+
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+li{
+
+  width:117px;
+  height: 146px;
+  background: #A7E9AF;
+  border-radius: 5px; 
+  position: relative;
+  margin-right: 34px;
+  margin-bottom: 34px;
+  border: 1px solid #99CEA8;
+  
+}
