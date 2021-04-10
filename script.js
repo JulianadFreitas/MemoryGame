@@ -81,7 +81,7 @@ function untap(card1, card2) {
     card1.parentNode.children[0].classList.remove('disappears');
     card1.parentNode.children[1].classList.remove('appears');
     card1.parentNode.children[1].classList.add('disappears');
-    card1.parentNode.children[0].classList.remove('disappears');
-    card1.parentNode.children[1].classList.remove('appears');
-    card1.parentNode.children[1].classList.add('disappears');
+    card2.parentNode.children[0].classList.remove('disappears');
+    card2.parentNode.children[1].classList.remove('appears');
+    card2.parentNode.children[1].classList.add('disappears');
 }
