@@ -1,74 +1,83 @@
 * {
-    box-sizing: border-box;
-  }
-  body {
-    background: #EEF9BF;
-    font-family: 'Roboto:wght@700', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  box-sizing: border-box;
+}
+
+body {
+  background: #EEF9BF;
+  font-family: 'Roboto:wght@700', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 h1 {
 
-font-size: 56px;
-font-style: normal;
-font-weight: bold;
-line-height: 66px;
-letter-spacing: -0.004em;
-color: #75B79E;
-margin-top: 50px;
-text-align: center;
-}
- 
-
-.boxcards{
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 20px auto; 
-    width: 100%;
-    display: flex;
-    height: 400px;
-    padding: 150px;
-    
+  font-size: 56px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 66px;
+  letter-spacing: -0.004em;
+  color: #75B79E;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 47px;
 }
 
-.card {
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: pink;
+}
+
+li {
+
   width: 117px;
   height: 146px;
   background: #A7E9AF;
   border-radius: 5px;
-  border: solid 1px #99CEA8;
-  margin: 0 0 34px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
+  position: relative;
+  margin: 0px 34px 34px 0px;
+  border: 1px solid #99CEA8;
 }
-.card img {
+
+img {
   width: 100px;
   height: 100px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 
+.appears {
+  display: block;
+}
+
+.disappears {
+  display: none;
 }
 
 
-ul{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-li{
+@media(max-width:600px) {
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 37px;
+    margin-bottom: 27px;
+  }
 
-  width:117px;
-  height: 146px;
-  background: #A7E9AF;
-  border-radius: 5px; 
-  position: relative;
-  margin-right: 34px;
-  margin-bottom: 34px;
-  border: 1px solid #99CEA8;
-  
+  ul {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li {
+    margin-right: 0px;
+  }
 }
