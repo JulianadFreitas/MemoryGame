@@ -17,6 +17,7 @@ Parrot Card Game (Memory Game) 🃏🧠
 <div align="center">
   <img src="imgs/desktop.JPG" alt="demo" height="200">
   <img src="imgs/mobile.png" alt="demo" height="200">
+  <img src="imgs/DANCANTE.JPG" alt="demo" height="182">
 </div>
 
 <hr />
