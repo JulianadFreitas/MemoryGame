@@ -1,6 +1,8 @@
 let cardsnumber = parseInt(prompt("Qual o número de cartas? Número par de 4 a 14"));
 let win = 0;
 let total = 0;
+let front;
+let card;
 let imgs = [
     "<img class ='gif disappears' src='imgs/bobrossparrot.gif'>", 
     "<img class ='gif disappears' src='imgs/explodyparrot.gif'>", 
@@ -71,7 +73,10 @@ function test(card1, card2) {
         if (win === cardsnumber) {
             alert("você venceu em " + total + " jogadas")
         }
-    } else {
+    } else if (card1.src !== card2.src) {
+        setTimeout(untap, 1000, card1, card2);
+    }
+    else {
         setTimeout(untap, 1000, card1, card2);
     }
 }

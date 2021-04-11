@@ -11,7 +11,12 @@ body {
   align-items: center;
 }
 
-
+.boxcards{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
 h1 {
 
   font-size: 56px;
@@ -29,6 +34,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 li {
@@ -74,6 +80,7 @@ img {
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
+    
   }
 
   li {
