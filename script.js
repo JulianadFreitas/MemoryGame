@@ -1,5 +1,5 @@
 let cardsnumber = parseInt(prompt("Qual o número de cartas? Número par de 4 a 14"));
-let vitoria = 0;
+let win = 0;
 let total = 0;
 let imgs = [
     "<img class ='gif disappears' src='imgs/bobrossparrot.gif'>", 
