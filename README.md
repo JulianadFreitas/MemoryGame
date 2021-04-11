@@ -14,22 +14,19 @@ Parrot Card Game (Memory Game) 🃏🧠
 </p>
 
 
-
- <a href="https://julianadfreitas.github.io/Projeto_04_MemoryGame/"></a>
-
 <div align="center">
   <img src="imgs/desktop.JPG" alt="demo" height="200">
   <img src="imgs/mobile.png" alt="demo" height="200">
   <img src="imgs/DANCANTE.JPG" alt="demo" height="182">
 </div>
 
-[//]: # (Add your gifs/images here:)
-### Link para testar a página
+<hr />
+
 
 [//]: # (Add the features of your project here:)
 ### Página desenvolvida utilizando CSS, HTML e JavaScript.
-### Link
-### Principais conhecimentos
+
+### Principais conhecimentos:
 - Para a organização do layout: Flex-Box
 
 - JavaScript: prompt, .querySelector, this, setTimeout(), setInterval() e .sort()
