@@ -6,10 +6,10 @@
   <img src="https://notion-emojis.s3-us-west-2.amazonaws.com/v0/svg-twitter/1f99c.svg" alt="Parrot Card Game" width="120">
 <br>
 <br>
-YOUR_PROJECT_NAME
+Parrot Card Game
 </h1>
 
-<p align="center">A little description about your project</p>
+<p align="center">Um jogo da memória temático com aleatoridade, efeitos e transição, responsividade e papagaios dançantes!</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
