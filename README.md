@@ -15,7 +15,7 @@ Parrot Card Game (Memory Game) 🃏🧠
 
 [//]: # (Add your gifs/images here:)
 <div align="center">
-  <img src="imgs/Desktop.png" alt="demo" height="200">
+  <img src="imgs/desktop.JPG" alt="demo" height="200">
   <img src="imgs/mobile.png" alt="demo" height="200">
 </div>
 
