@@ -3,7 +3,7 @@
 
 <h1 align="center">
 <br>
-  <img src="https://notion-emojis.s3-us-west-2.amazonaws.com/v0/svg-twitter/1f99c.svg" alt="Parrot Card Game" width="120">
+  <img src="https://notion-emojis.s3-us-west-2.amazonaws.com/v0/svg-twitter/1f99c.svg" alt="Parrot Card Game" width="70">
 <br>
 <br>
 Parrot Card Game
