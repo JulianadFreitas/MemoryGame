@@ -12,7 +12,7 @@ let imgs = [
     "<img class ='gif disappears' src='imgs/tripletsparrot.gif'>", 
     "<img class ='gif disappears' src='imgs/unicornparrot.gif'>"
 ]
-
+imgs.sort(randomSort);
 let arraycards = [];
 
 while (cardsnumber % 2 != 0 || cardsnumber > 14 || cardsnumber < 4) {
@@ -26,11 +26,11 @@ for (let i = 0; i < cardsnumber / 2; i++) {
 
     arraycards.push(`<li onclick="turn(this)"> <img src="imgs/front.png" alt="papagaio da frente da carta">  
     ${imgs[i]} </li>`);
+    arraycards.sort(randomSort);
 }
 
 arraycards.sort(randomSort);
 
-console.log(arraycards);
 
 for (let i = 0; i < arraycards.length; i++) {
     let cards = document.querySelector("ul");
