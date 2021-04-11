@@ -16,7 +16,7 @@ Parrot Card Game
 </p>
 
 [//]: # (Add your gifs/images here:)
-<div>
+<div align="center">
   <img src="imgs/Desktop.png" alt="demo" height="200">
   <img src="imgs/mobile.png" alt="demo" height="200">
 </div>
