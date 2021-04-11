@@ -11,12 +11,13 @@ body {
   align-items: center;
 }
 
-.boxcards{
+.boxcards {
   display: flex;
   justify-content: center;
   width: 100%;
   align-items: center;
 }
+
 h1 {
 
   font-size: 56px;
@@ -80,7 +81,7 @@ img {
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
-    
+
   }
 
   li {

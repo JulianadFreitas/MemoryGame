@@ -4,21 +4,22 @@ let total = 0;
 let front;
 let card;
 let imgs = [
-    "<img class ='gif disappears' src='imgs/bobrossparrot.gif'>", 
-    "<img class ='gif disappears' src='imgs/explodyparrot.gif'>", 
-    "<img class ='gif disappears' src='imgs/fiestaparrot.gif'>", 
-    "<img class ='gif disappears' src='imgs/metalparrot.gif'>", 
-    "<img class ='gif disappears' src='imgs/revertitparrot.gif'>", 
-    "<img class ='gif disappears' src='imgs/tripletsparrot.gif'>", 
-    "<img class ='gif disappears' src='imgs/unicornparrot.gif'>"
+    "<img class ='gif disappears' src='imgs/bobrossparrot.gif' alt='papagaio com gorro preto dançante'>",
+    "<img class ='gif disappears' src='imgs/explodyparrot.gif' alt='papagaio explodindo'>",
+    "<img class ='gif disappears' src='imgs/fiestaparrot.gif' alt='papagaio mexicano'>",
+    "<img class ='gif disappears' src='imgs/metalparrot.gif' alt='papagaio roqueiro'>",
+    "<img class ='gif disappears' src='imgs/revertitparrot.gif' alt='papagaio no barco'>",
+    "<img class ='gif disappears' src='imgs/tripletsparrot.gif' alt='três papagaios dançantes'>",
+    "<img class ='gif disappears' src='imgs/unicornparrot.gif' alt='papagaio unicórnio'>"
 ]
+
+//embaralha array das imagens
 imgs.sort(randomSort);
 let arraycards = [];
 
 while (cardsnumber % 2 != 0 || cardsnumber > 14 || cardsnumber < 4) {
     cardsnumber = parseInt(prompt("Qual o número de cartas? Somente número par entre 4 a 14"));
 }
-
 
 for (let i = 0; i < cardsnumber / 2; i++) {
     arraycards.push(`<li onclick="turn(this)"> <img src="imgs/front.png" alt="papagaio da frente da carta">  
@@ -29,8 +30,8 @@ for (let i = 0; i < cardsnumber / 2; i++) {
     arraycards.sort(randomSort);
 }
 
+//embaralha 
 arraycards.sort(randomSort);
-
 
 for (let i = 0; i < arraycards.length; i++) {
     let cards = document.querySelector("ul");
@@ -73,10 +74,10 @@ function test(card1, card2) {
         if (win === cardsnumber) {
             alert("você venceu em " + total + " jogadas")
         }
+        // aguarda 1 segundo e então vira as duas cartas para baixo novamente
     } else if (card1.src !== card2.src) {
         setTimeout(untap, 1000, card1, card2);
-    }
-    else {
+    } else {
         setTimeout(untap, 1000, card1, card2);
     }
 }
