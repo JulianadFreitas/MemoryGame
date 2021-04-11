@@ -4,15 +4,13 @@
   <img src="https://notion-emojis.s3-us-west-2.amazonaws.com/v0/svg-twitter/1f99c.svg" alt="Parrot Card Game" width="70">
 <br>
 <br>
-Parrot Card Game
+Parrot Card Game (Memory Game) 🃏🧠
 </h1>
 
 <p align="center">Um jogo da memória temático com aleatoridade, efeitos e transição, responsividade e papagaios dançantes!</p>
 
 <p align="center">
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
-  </a>
+  Esse é o meu segundo projeto com JavaScript no treinamento do bootcamp "Desenvolvimento Web Full-Stack" do Responde Aí
 </p>
 
 [//]: # (Add your gifs/images here:)
@@ -23,19 +21,13 @@ Parrot Card Game
 
 <hr />
 
-## Features
+
 [//]: # (Add the features of your project here:)
-This app features all the latest tools and practices in mobile development!
+### Página desenvolvida utilizando CSS, HTML e JavaScript.
 
-- ⚛️ **React Js** — A JavaScript library for building user interfaces
-- ⚛️ **React Native** — A lib that provides a way to create native apps for Android and iOS
-- 💹 **Node Js** — A web framework for Node Js
+### Principais conhecimentos
+- Para a organização do layout: Flex-Box
 
-## Getting started
-
-Describe here the way to use/install your project
+- JavaScript: prompt, .querySelector, this, setTimeout(), setInterval() e .sort()
 
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
