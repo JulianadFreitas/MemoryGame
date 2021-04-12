@@ -70,16 +70,19 @@ function test(card1, card2) {
     if (card1.src === card2.src) {
         card1.removeAttribute('onclick');
         win = win + 2;
-        console.log(win)
-        if (win === cardsnumber) {
-            alert("você venceu em " + total + " jogadas")
-        }
+        console.log(win);
+        setTimeout(game, 1000)
         // aguarda 1 segundo e então vira as duas cartas para baixo novamente
     } else if (card1.src !== card2.src) {
         setTimeout(untap, 1000, card1, card2);
     } else {
         setTimeout(untap, 1000, card1, card2);
-    }
+    }  
+}
+
+function game () {
+    if (win === cardsnumber) {
+    alert("você venceu em " + total + " jogadas");}
 }
 
 function untap(card1, card2) {
