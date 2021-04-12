@@ -14,7 +14,7 @@ Parrot Card Game (Memory Game) 🃏🧠
 </p>
 
 <p align="center">
-  Acesse o site <a href="https://github.com/JulianadFreitas/Projeto_04_MemoryGame"> aqui </a>
+  Acesse o site <a href="https://julianadfreitas.github.io/Projeto_04_MemoryGame/"> aqui </a>
 </p>
 
 <div align="center">
