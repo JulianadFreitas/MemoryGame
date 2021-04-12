@@ -77,12 +77,13 @@ function test(card1, card2) {
         setTimeout(untap, 1000, card1, card2);
     } else {
         setTimeout(untap, 1000, card1, card2);
-    }  
+    }
 }
 
-function game () {
+function game() {
     if (win === cardsnumber) {
-    alert("você venceu em " + total + " jogadas");}
+        alert("você venceu em " + total + " jogadas");
+    }
 }
 
 function untap(card1, card2) {
