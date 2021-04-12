@@ -13,6 +13,9 @@ Parrot Card Game (Memory Game) 🃏🧠
   Esse é o meu segundo projeto com JavaScript no treinamento do bootcamp "Desenvolvimento Web Full-Stack" do Responde Aí
 </p>
 
+<p align="center">
+  Acesse o site <a href="https://github.com/JulianadFreitas/Projeto_04_MemoryGame"> aqui </a>
+</p>
 
 <div align="center">
   <img src="imgs/desktop.JPG" alt="demo" height="200">
