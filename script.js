@@ -71,7 +71,7 @@ function test(card1, card2) {
         card1.removeAttribute('onclick');
         win = win + 2;
         console.log(win);
-        setTimeout(game, 1000)
+        setTimeout(game, 1000);
         // aguarda 1 segundo e então vira as duas cartas para baixo novamente
     } else if (card1.src !== card2.src) {
         setTimeout(untap, 1000, card1, card2);
