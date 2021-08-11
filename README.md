@@ -10,10 +10,6 @@ Parrot Card Game (Memory Game) 🃏🧠
 <p align="center">Um jogo da memória temático com aleatoridade, efeitos e transição, responsividade e papagaios dançantes!</p>
 
 <p align="center">
-  Esse é o meu segundo projeto com JavaScript no treinamento do bootcamp "Desenvolvimento Web Full-Stack" do Responde Aí
-</p>
-
-<p align="center">
   Acesse o site <a href="https://julianadfreitas.github.io/Projeto_04_MemoryGame/"> aqui </a>
 </p>
 
